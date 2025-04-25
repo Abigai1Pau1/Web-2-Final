@@ -1,0 +1,26 @@
+{
+  "name": "web-2-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abigai1Pau1/Web-2-Final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abigai1Pau1/Web-2-Final/issues"
+  },
+  "homepage": "https://github.com/Abigai1Pau1/Web-2-Final#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.5"
+  }
+}

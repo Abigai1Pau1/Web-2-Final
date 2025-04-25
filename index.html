@@ -11,53 +11,64 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="images/favicon.png" />
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="scss/bootstrap.scss"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="scss/styles.scss"/>
      
     <title> The Butterfly Effect</title>
     </head>
-    <body>
+    <body class="bg-primary">
 <!--Navigation-->
         <nav class="">
     <!--Navbar content-->
-        <div class="container">
+        <div class="container d-flex justify-content-center">
             <a href="index.html">
                 <img src="images/logo.png" alt="Logo" width="213">
             </a>
-            <ul class="">
-                <li class="nav-item">
-                    <a href="index.html">Dates</a>
-                <li class="nav-item">
-                    <a href="index.html">Lectures</a>
-                <li class="nav-item">
-                    <a href="index.html">Tour</a>
-                <li class="nav-item">
-                    <a href="index.html">Gardens</a>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link btn">Order Tickets</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
+            <ul class="navbar-nav ms-auto d-flex flex-row text-dark align-items-baseline">
+                <li class="p-2 nav-item">
+                    <a class="nav link text-dark" href="index.html">Dates</a> </li>
+                <li class="p-2 nav-item">
+                    <a class="nav link text-dark" href="index.html">Lectures</a></li>
+                <li class="p-2 nav-item">
+                    <a class="nav link text-dark" href="index.html">Tour</a></li>
+                <li class="p-2 nav-item">
+                    <a class="nav link text-dark" href="index.html">Gardens</a></li>
+                <li class="p-2 nav-item">
+                    <a class="nav link btn btn-light" href="index.html" class=" btn btn-light">Order Tickets</a>
+                
                 </li>
             </ul>
+            </div>
         </div>
         </nav>
     <!--header-->
         <header class="header">
     <!--hero-->
         </header>
-        <h1 class="">The Butterfly Effect</h1>
+        <div class="d-flex justify-content-center" style="width: 100%;">
+            <div class="text-center d-flex flex-column align-items-center">
+        <h1>The Butterfly Effect</h1>
         <p class="lead">
             2025 Monarch Butterfly Conference
         </p>
-        <a herf="" class="btn">Reserve Your Spot</a>
+        <a href="" class="btn btn-light">Reserve Your Spot</a>
+        </div>
+    </div>
 
         <!--Times-->
-        <h1 class="display-none">Join Us in Atlanta </h1>
-        <div class="">
-            <img src="images/caterpillar.png" alt="Monarch Caterpillars" width="360">
+        <h1 class="d-none">Join Us in Atlanta </h1>
+        <div class="d-flex justify-content-center flex-wrap text-center gap-3">
+            <div class="p-2" style="width: 416px">
+            <img src="images/caterpillar.png" alt="Monarch Caterpillars" width="360" class="img-fluid">
             <h3>The Butterfly Effect</h3>
             <p>This year's theme centers around the idea that even small changes can makelasting impacts. No matterwho you are or what you do, everyone can help the Monarchs trive and ultimately move them off the endangered species list.</p>
         </div>
-        <div class="">
-            <img src="images/butterfly-arch.png" alt="Monarch Butterfly" width="273">
+        <div class="p-2" style="width: 416px;">
+            <img src="images/butterfly-arch.png" alt="Monarch Butterfly" width="273" class="img-fluid">
             <h5>When?</h5>
             <h4>August 1st-August 4th</h4>
             <h5>Where?</h5>
@@ -65,17 +76,20 @@
             <h5>Who?</h5>
             <h4>Everyone is Welcome</h4>
         </div>
-        <div class="">
-            <img src="images/chrysalis.png" alt="Monarch chrysalis" width="163">
+        <div class="p-2"style="width: 416px;">
+            <img src="images/chrysalis.png" alt="Monarch chrysalis" width="163" class="img-fluid">
             <h3>The Butterfly Effect</h3>
             <p>This year's theme centers around the idea that even small changes can makelasting impacts. No matterwho you are or what you do, everyone can help the Monarchs trive and ultimately move them off the endangered species list.</p>
         </div>
+        </div>
 
         <!--Tickets-->
-        <div class="">
+        <div class="d-flex justify-content-center" style="width: 100%;">
+            <div class="text-center d-flex flex-column align-items-center">  
             <h1>Included With Your Ticket</h1>
-            <h5>Experience for yourself the quiet world of the Monarchs through lectures</h5>
-            <a href="index.html" class="btn">Order Your Ticket</a>
+            <h5>Experience for yourself the quiet world of the Monarchs through lectures, tours and workshops in Atlanta this summer. Do good while learning in the process at this year’s Monarch butterfly conference.</h5>
+            <a href="index.html" class="btn btn-light">Order Your Ticket</a>
+        </div>
         </div>
 
         <!--Lectures-->
@@ -83,24 +97,27 @@
         <img src="images/butterfly-wing.png" alt="Butterfly Wing" width="1020">
             <div class="">
             <h2>Lectures From the Experts</h2>
-            <div class="">
+            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center flex-wrap text-center gap-3">
             <h4>Raising Monarch Caterpillars</h4>
             <h5>Johanna McDonald</h5>
             <p>Wildlife enthusiast, Johanna McDonald will lead us in a lecture and discussion on the pros and cons of raising Monarch caterpillars indoors, presenting an advanced option of bettering the Monarchs’ chance of survival.</p>
             </div>
 
-            <div class="">
+            <div class="d-flex justify-content-center flex-wrap text-center gap-3">
                 <h4>Generations & Migration</h4>
                 <h5>Mike Brown</h5>
                 <p>Notable wildlife expert and naturalist, Mike Brown walks us through the generational patterns of the Monarchs and what that means for each step of their extensive migration to Mexico. </p>
             </div>
 
-            <div class="">
+            <div class="d-flex justify-content-center flex-wrap text-center gap-3">
                 <h4>Monarchs & Milkweed</h4>
                 <h5>Greg Schauer</h5>
                 <p>The greatest butterfly gardener of our time, Greg Schauer, will be joining us in Atlanta to share his insights on cultivating a garden with butterflies in mind. Greg will go over the quirks of milkweed, keeping a healthy garden, and strategies to attracting Monarchs</p>
             </div>
+            </div>
         </div>
+        <p>please work for abby, she is getting angry and we do not like stabby. Please send help!!!</p>
 
         <!--Tour-->
         <div class="">
@@ -112,13 +129,13 @@
         </div>
 
         <!--Garden-->
-        <div class="">
-         <div>
+        <div class="d-flex gap-3">
+         <div class="p-2" style=width:415px;>
             <h2>Butterfly Garden Workshop</h2>
             <p>Learn about the different types of milkweed, nectar plants and go through the pros and cons of different environments in the Confidential United States. In this workshop, our experts will help you gather the supplies to start your very own butterfly garden. You will be able to select the plants that will work best in your specific climate from our arrangement of seeds, cuttings and seeds. Included with this workshop is a personalized garden kit, as well as one-on-one advice with famous butterfly gardener, Greg Schauer. </p>
-            <a href="index.html" class="btn">Reserve Your Spot</a>
+            <a href="index.html" class="btn btn-light">Reserve Your Spot</a>
         </div>
-        <img src="images/milkweed.png" alt="Milkweed Stalk" width="813">
+        <img src="images/milkweed.png" alt="Milkweed Stalk" width="415px;">
         </div>
 
         <!--footer-->
@@ -134,4 +151,6 @@
         </div>
         </div>
         </div>
+        <script src="js/script.js"></script>
     </body>
+    </html>
