@@ -12,9 +12,10 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-family: "Cardo", serif;
+  font-family: "Cardo";
   font-size: 45px;
-  font-weight: 700;
+  font-weight: 800;
+  font-weight: bold;
   color: hotpink;
 }
 
