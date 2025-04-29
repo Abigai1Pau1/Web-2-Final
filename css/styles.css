@@ -4,11 +4,16 @@
 body {
   font-size: 10px;
   font-family: "Cardo";
+  background-color: red;
+}
+
+body {
+  background: lime;
 }
 
 h1, .h1 {
   font-family: "Aboreto";
-  font-size: 10px;
+  font-size: 60px;
   color: hotpink;
 }
 
@@ -11905,3 +11910,5 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
