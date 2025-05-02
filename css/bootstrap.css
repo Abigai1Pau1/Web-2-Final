@@ -289,6 +289,10 @@ h7, .h7 {
 }
 }
 
+.lectures {
+  width: 953px
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -369,10 +373,195 @@ sup {
   top: -0.5em;
 }
 
-a {
-  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
-  text-decoration: underline;
+.d-flex relative {
+  position: relative;
+  height: ;
+  width: 390px;
 }
+@media (min-width: 576px) {
+  .d-flex relative {
+  position: relative;
+  height: 520px;
+  width: 1440px;
+  }
+}
+
+@media (max-width: 576px)
+{.b-1 {
+  position: absolute;
+  top: 118px;
+  left: -130px;
+  width: 90%;
+}
+}
+@media (min-width: 576px) {
+  .b-1{
+    position: absolute;
+    top: 253px;
+    left: 116px;
+  }
+}
+
+@media (max-width: 576px) {
+.b-2 {
+  position: absolute;
+  top: 92px;
+  left: 194px;
+  width: 50%;
+}
+}
+
+@media (min-width: 576px) {
+  .b-2{
+  position: absolute;
+  top: 391px;
+  left: 370px;
+  }
+}
+@media (max-width: 576px) {
+.b-3 {
+  position: absolute;
+  top: 465px;
+  left: 3px;
+  width: 40%;
+}
+}
+@media (min-width: 576px) {
+  .b-3{
+  position: absolute;
+  top:422px;
+  left: 794px;
+  }
+}
+@media (max-width: 576px) {
+.b-4 {
+  position: absolute;
+  top: 571px;
+  left: 116px;
+  transform: rotate(315deg);
+}
+}
+@media (min-width: 576px) {
+  .b-4{
+    position: absolute;
+    top: 253px;
+    left: 987px;
+    transform: none;
+    
+  }
+}
+
+.logistics p-2 {
+  height: 650px;
+}
+
+.time-block {
+  display: block;
+   margin-left: auto; 
+   margin-right: auto;
+}
+
+@media (max-width: 576px) {
+  .lectures {
+  width: 100%; 
+  background-image:url(../images/block-mobile.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  margin-left: 15px;; 
+  margin-right: 15px;
+}}
+@media (min-width: 576px) {
+  .lectures {
+  width: 100%; 
+  background-image:url(../images/block.png); 
+  background-repeat: no-repeat;
+  
+
+}}
+
+
+@media (max-width: 576px) {
+.butterfly d-flex flex-wrap text-centerd {
+  width: 100%; 
+  margin-left: 15px; 
+  margin-right: 15px;
+  
+  
+}
+}
+@media (min-width: 576px) {
+  .butterfly d-flex flex-wrap text-centerd {
+    width: 70%; 
+    margin-left: 20%; 
+    margin-right: 10%;
+  }
+  }
+
+  @media (max-width: 576px) {
+    .down {
+      text-align: center; 
+      padding-top: 1100px;
+      width: 60%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  @media (min-width: 576px) {
+    .down {
+      text-align: center; 
+      padding-top: 70px;
+    }
+    }
+
+
+ @media (max-width: 576px){.arch-p-2 {
+      width: 372px; 
+      background-image: url(../images/Union-left.png);
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    }
+@media (min-width: 576px){.arch-p-2 {
+  width: 372px; 
+  background-image: url(../images/Union.png);
+
+}
+}
+
+
+
+@media (max-width: 576px){.logistics-p-2 {
+  width: 372px; 
+  background-image: url(../images/Union-right.png);
+  background-repeat: no-repeat;
+  display: flex;
+}
+}
+@media (min-width: 576px){.logistics-p-2 {
+width: 372px; 
+background-image: url(../images/Union.png);
+
+}
+}
+
+
+
+a {
+  color:#6c757d;
+  
+}
+@media (min-width: 576px) {
+  a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-right: 20px;
+  transform: none;
+  }
+}
+
 a:hover {
   --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
 }
@@ -2947,7 +3136,11 @@ textarea.form-control-lg {
   }
 }
 
-
+.text-center {
+  padding-bottom: 250px; 
+  padding-top: 70px; 
+   
+}
 .btn:hover {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
