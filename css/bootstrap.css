@@ -516,11 +516,13 @@ sup {
 
 
  @media (max-width: 576px){.arch-p-2 {
-      width: 372px; 
+      width: 100%;
+      height:150%; 
       background-image: url(../images/Union-left.png);
       background-repeat: no-repeat;
       display: flex;
       flex-direction: row-reverse;
+      height:
     }
     }
 @media (min-width: 576px){.arch-p-2 {
@@ -530,10 +532,28 @@ sup {
 }
 }
 
+@media (max-width: 576px){nav {
+  display: none;
+}
+}
+@media (min-width: 576px){nav {
+
+
+}
+}
+
+
+@media (min-width: 576px)
+{Menu {
+display: none;
+}
+}
+
 
 
 @media (max-width: 576px){.logistics-p-2 {
-  width: 372px; 
+  width: 100%; 
+  height: 150%;
   background-image: url(../images/Union-right.png);
   background-repeat: no-repeat;
   display: flex;
